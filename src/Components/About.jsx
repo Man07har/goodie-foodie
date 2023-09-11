@@ -12,7 +12,7 @@ function About() {
             className="hidden md:block w-[30vw] lg:w-[20vw]"
           />
           <div className=" flex flex-col justify-center items-center p-6 md:text-left  md:items-start  md:w-[40vw]">
-            <h1 className="heading md:mx-0 ">About Us</h1>
+            <h1 className="heading md:mx-0 font-p font-semibold ">About Us</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

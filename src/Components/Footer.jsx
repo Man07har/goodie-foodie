@@ -15,7 +15,7 @@ function Footer() {
           /> */}
         </div>
         <div className=" m-10 md:w-48">
-          <h2 className="text-navy text-[15.77px] font-bold py-2">
+          <h2 className="text-navy text-lg  py-2 headi font-semibold ">
             Contact Us
           </h2>
           <p>
@@ -26,16 +26,23 @@ function Footer() {
           <p>(904) 443-0343</p>
         </div>
         <div className="flex flex-col m-10 ">
-          <h2 className=" text-navy text-[15.77px] font-bold  py-2">More</h2>
+          <h2 className=" text-navy text-lg font-semibold headi py-2">More</h2>
           <a>About Us</a>
           <a>Products</a>
           <a>Career</a>
           <a>Contact Us</a>
         </div>
         <div className="flex flex-col  items-center justify-between m-10">
-          <p className="md:order-last">© 2022 Food Truck Example</p>
+          <p
+            className="  md:order-last font-['Roboto'] "
+            style={{
+              color: "gray",
+            }}
+          >
+            © 2022 Food Truck Example
+          </p>
           <div>
-            <h2 className="hidden md:block text-navy text-[15.77px] font-bold  py-2">
+            <h2 className="hidden md:block text-navy text-lg font-semibold headi  py-2">
               Social links
             </h2>
             <div className="flex m-[10px] ">

@@ -32,7 +32,7 @@ function Home() {
             className="hidden md:block w-16 h-12 my-12 ms-5 "
           />
           <div className="mt-[59vh] md:mt-[20vh] md:w-[50vw] flex flex-col justify-around font-bold items-center w-auto p-4 pt-2 h-[45vh] text-center md:text-left">
-            <h1 className="text-na  vy text-4xl md:text-5xl md:my-4 w-[70vw] md:w-[25vw] md:self-start text-navy ">
+            <h1 className="headi text-na  vy text-4xl md:text-5xl md:my-4 w-[70vw] md:w-[25vw] md:self-start text-navy ">
               Discover the <span className="text-peach">Best </span>Food and
               Drinks
             </h1>
@@ -41,7 +41,7 @@ function Home() {
               of your body.
             </p>
             <button
-              className=" bg-peach py-[12px] px-[30px] rounded-[30px] md:self-start"
+              className=" bg-peach py-[12px] px-[30px] rounded-[30px] md:self-start headi font-semibold"
               style={{
                 color: "#fff",
               }}
